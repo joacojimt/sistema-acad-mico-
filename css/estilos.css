@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fb;
+}
+
+.header {
+    width: 250px;
+    min-height: 100vh;
+    background-color: #1e3fae;
+    padding: 35px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    background-color: #1fc3f0;
+    border-left: 3px solid white;
+    padding: 8px 12px;
+    margin-bottom: 50px;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 18px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.enlace {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+
+.enlace:hover {
+    background-color: #3a58c4;
+}
+
+.activo {
+    background-color: #3a58c4;
+    font-weight: bold;
+}
+
+.icono {
+    width: 32px;
+    font-size: 26px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.negro {
+    color: black;
+}
+
+.verde {
+    color: #1aa34a;
+}
+
+.morado {
+    color: #8b45f5;
+}
+
+.naranja {
+    color: #f59e0b;
+}
+
+.rojo {
+    color: #f2481b;
+}
+
+.gris {
+    color: #d9d9d9;
+}
+
+.contenido {
+    flex: 1;
+    padding: 40px;
+}
